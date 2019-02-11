@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(to top, #0099ff 0%, #a8edea 100%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.numbers {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.powerball {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid yellow;
+}
+

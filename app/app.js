@@ -1,9 +1,9 @@
-/*
-Init app
-interact with DOM
-interact with localstorage
-
- */
+// notes
+// I want to create a lottery number generator
+// using the current crudd app they can input any numbers that they want
+// this could also be a getter setter function
+// would randomly assign the numbers
+//
 
 $(document).ready(function(){
   // this is where we jquery
