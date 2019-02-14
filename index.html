@@ -12,40 +12,30 @@
   <link rel="stylesheet" href="css/style.css">
 
 
-  <!--
 
-√ create container
-√ create button
-√ input field
-√ container to display text
-√ update button(or maybe click on the container item)
-√ delete button
-container for the response-feedback (start with alert)
+</script>
+</head> 
+<body> 
+<h1>Lottery number generator</h1>
+<form name="lottery"> 
+  How many whiteballs?<br> 
+  <input type="text" name="balls_drawn" size=2 value="0"><br><br> 
+  Highest number whiteball?<br> 
+  <input type="text" name="max_number" size=2 value="0"><br><br>
+  How many powerballs?<br> 
+  <input type="text" name="balls_drawn2" size=2 value="0"><br><br>
+  Highest number powerball?<br> 
+  <input type="text" name="max_number2" size=2 value="0"><br><br> 
+    
+  The numbers:<br> 
+  <input type="text" name="numbers" size=40 maxlength=40 value=""><br> 
+  <input type="button" value="generate" onclick="generator( );"><br><br>
+  powerball numbers:<br>  
+  <input type="text" name="numbers1" size=40 maxlength=40 value=""><br> 
+  <input type="button" value="generate" onclick="generator1( );"><br><br>
+</form> 
+</body> 
 
--->
-</head>
-<body>
 
-<div class="container-main">
-  <h1>Lottery number picker</h1>
-  <header>If you want to assign any of your lucky numbers please input them</header>
 
-  <div class="container-form">
-    <input type="text" class="input-key" placeholder="enter position">
-    <input type="text" class="input-value" placeholder="enter value">
-    <button class="btn-add">Submit</button>
-    <button class="btn-update">Update</button>
-    <button class="btn-delete">Delete</button>
-    <button class="btn-clear">Clear</button>
-  </div>
-  <div class="container-data"></div>
-    <button id = "results"style="background-color:white;"></div>
-    <button id = "results2"style="background-color:white;"></div>
-    <button id = "results3"style="background-color:white;"></div>
-    <button id = "results4"style="background-color:white;"></div>
-    <button id = "results5"style="background-color:white;"></div>
-    <button id = "results6"style="background-color:yellow;"></div>
-</div>
 
-</body>
-</html>
